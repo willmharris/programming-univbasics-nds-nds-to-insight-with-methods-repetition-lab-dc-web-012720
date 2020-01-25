@@ -27,7 +27,8 @@ def list_of_directors(source)
   counter = 0 
   while coutner < source.length do 
     current_name = source[counter][:name]
-    initial_array.
+    initial_array.push(current_name)
+    counter += 1 
   end 
   initial_array 
 end
@@ -35,10 +36,14 @@ end
 def total_gross(source)
   end_total = 0 
   counter = 0 
-  while coutner < source.length do 
-    directors_totals_hash = directors_totals(source)
-    end_total += directors_totals_hash[][]
-  
+  directors_array = list_of_directors(source)
+  directors_totals_hash = directors_totals(source)
+  while coutner < source.length do
+    current_director_name = directors_array[counter]
+    end_total += directors_totals_hash[current_director_name]
+    counter += 1 
+  end 
+  end_total
 end
 
 
