@@ -38,7 +38,7 @@ def total_gross(source)
   counter = 0 
   directors_array = list_of_directors(source)
   directors_totals_hash = directors_totals(source)
-  while coutner < source.length do
+  while counter < source.length do
     current_director_name = directors_array[counter]
     end_total += directors_totals_hash[current_director_name]
     counter += 1 
