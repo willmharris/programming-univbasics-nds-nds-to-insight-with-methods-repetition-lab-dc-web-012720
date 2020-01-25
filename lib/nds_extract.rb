@@ -25,7 +25,7 @@ end
 def list_of_directors(source)
   initial_array = [] 
   d_counter = 0 
-  while d_coutner < source.size do 
+  while d_counter < source.length do 
     current_name = source[d_counter][:name]
     initial_array.push(current_name)
     d_counter += 1 
