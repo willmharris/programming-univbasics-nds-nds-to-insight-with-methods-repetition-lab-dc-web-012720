@@ -24,11 +24,11 @@ end
 
 def list_of_directors(source)
   initial_array = [] 
-  counter = 0 
-  while coutner < source.length do 
-    current_name = source[counter][:name]
+  d_counter = 0 
+  while d_coutner < source.length do 
+    current_name = source[d_counter][:name]
     initial_array.push(current_name)
-    counter += 1 
+    d_counter += 1 
   end 
   initial_array 
 end
