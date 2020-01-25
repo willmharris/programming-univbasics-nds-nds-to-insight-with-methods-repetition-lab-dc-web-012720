@@ -30,8 +30,8 @@ def total_gross(source)
   end_total = 0 
   counter = 0 
   while coutner < source.length do 
-    current_array = directors_totals(source)
-  end_total += 
+    directors_totals_hash = directors_totals(source)
+    end_total += directors_totals_hash[][]
   
 end
 
