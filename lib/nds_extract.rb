@@ -23,7 +23,10 @@ def directors_totals(source)
 end
 
 def list_of_directors(source)
-  
+  initial_array = [] 
+  while 
+  end 
+  initial_array 
 end
 
 def total_gross(source)
