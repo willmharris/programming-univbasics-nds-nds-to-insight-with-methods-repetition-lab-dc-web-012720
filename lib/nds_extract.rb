@@ -31,7 +31,7 @@ def total_gross(source)
   counter = 0 
   while coutner < source.length do 
     current_array = directors_totals(source)
-    
+  end_total += 
   
 end
 
